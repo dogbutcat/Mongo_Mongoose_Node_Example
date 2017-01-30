@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "allowJs": true,
+        "outDir": "build",
+        "experimentalDecorators": true,
+        "lib": [
+            "dom",
+            "es2015.promise",
+            "es6",
+            "es5"
+        ],
+        "sourceMap": true
+    },
+    "include": [
+        "src/mongoose.ts",
+        "typings/index.d.ts"
+        ]
+}

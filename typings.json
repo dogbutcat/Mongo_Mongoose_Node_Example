@@ -1,0 +1,15 @@
+{
+  "name": "mongo_mongoose_node",
+  "dependencies": {
+    "body-parser": "registry:dt/body-parser#0.0.0+20160726204056",
+    "consolidate": "registry:dt/consolidate#0.0.0+20170101024625",
+    "express": "registry:dt/express#4.0.0+20170118060322",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20161228005052",
+    "mongodb": "registry:dt/mongodb#2.1.0+20170107134426"
+  },
+  "globalDependencies": {
+    "handlebars": "registry:dt/handlebars#4.0.5+20160810231743",
+    "mongoose": "registry:dt/mongoose#4.7.0+20170109095616",
+    "node": "registry:dt/node#7.0.0+20170110233017"
+  }
+}
