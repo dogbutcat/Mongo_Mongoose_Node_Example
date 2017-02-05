@@ -76,7 +76,7 @@ export class DataAccess {
 	}
 
 	static Connect() {
-		if (this.mongooseConnection) return this.mongooseConnection;
+		if (this.mongooseInstance) return this.mongooseInstance;
 		this.mongooseConnection = connection;
 		this.mongooseConnection.once('open', () => {
 			console.log('Successful Connect to Mongo');
