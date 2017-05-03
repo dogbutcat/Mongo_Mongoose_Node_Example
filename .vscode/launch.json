@@ -8,11 +8,11 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/build/mongoose.js",
+            "program": "${workspaceRoot}/build/mongoose/index.js",
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "tsc",
             "outFiles": [
-                "${workspaceRoot}/build/*.js"
+                "${workspaceRoot}/build/**/*.js"
             ],
             "sourceMaps": true
         },

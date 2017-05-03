@@ -14,8 +14,7 @@
         ],
         "sourceMap": true
     },
-    "include": [
-        "src/mongoose.ts",
-        "typings/index.d.ts"
-        ]
+    "files": [
+        "src/mongoose/index.ts"
+    ]
 }

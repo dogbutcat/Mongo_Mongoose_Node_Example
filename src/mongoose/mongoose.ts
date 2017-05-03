@@ -1,5 +1,5 @@
 // 1.import
-import { CONNECTION_STRING } from './Constants';
+import { CONNECTION_STRING } from '../Constants';
 import { Document, Connection, connection, connect, Types, Model, MongooseThenable } from 'mongoose';
 import * as express from 'express';
 import * as bodyParser from 'body-parser';
